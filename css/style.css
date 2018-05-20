@@ -1,0 +1,539 @@
+/*General Styles */
+
+* {
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+section {
+    padding-top: 70px;
+    padding-bottom: 85px;
+}
+
+h2, h3 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    padding-bottom: 70px;
+    margin: 0;
+}
+
+/*General Styles End */
+
+/*Header Styles*/
+
+.header-wrapper {
+    background-color: antiquewhite;
+    height: 100%;
+    padding: 15px;
+    
+}
+
+.header-menu-container {
+    background-image: url(../img/header-photo/MG_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.logo {
+    width: 333px;
+    height: 515px;
+    position: absolute;
+    left: 2%;
+    bottom: 40%;
+}
+
+.logo > img {
+    height: 100%;
+}
+
+.header-menu-container > .header {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Marcellus SC', serif;
+    font-family: 'Belleza', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cinzel Decorative', cursive;
+    color: black;
+
+}
+
+.first-letter {
+    color: antiquewhite;
+    font-size: 100px;
+}
+
+.header-menu-container > .slider-images {
+    position: absolute;
+    width: 70%;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+
+.slider-images img {
+    height: 200px; 
+    margin: auto;
+    border-radius: 5%;
+}
+
+/*Header Styles End*/
+
+/*Section Categories Style*/
+
+.categories {
+    
+    /* background-image: url(../img/welcome-background/pexels-photo235985.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    background-color: antiquewhite;
+}
+
+.categories-row-padding {
+    padding: 0 150px 0 150px;
+}
+
+.padding {
+    padding: 0;
+}
+
+.category-container {
+    height: 320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 8px;
+    border-radius: 2%;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    transition: all 0.5s ease;
+}
+
+
+.category-container:hover {
+     filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+
+}
+
+
+.category-container.one {
+    background-image: url(../img/categories/wladze.jpg); 
+}
+
+.category-container.two {
+    background-image: url(../img/categories/krolowie.jpg);
+}
+
+.category-container.three {
+    background-image: url(../img/categories/galeria.jpg);
+}
+
+.category-container.four {
+    background-image: url(../img/categories/historia.jpg);
+}
+
+.category-container.five {
+    background-image: url(../img/categories/komunikaty.jpg);
+}
+
+.category-container.six {
+    background-image: url(../img/categories/ciekawostki.jpg);
+}
+
+
+.category-text {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    color: antiquewhite;
+    text-align: center;
+}
+/*Section Categories Style End*/
+/*Section Photo Style*/
+.photo {
+    background-color: antiquewhite;
+    padding: 0;
+}
+
+.photo-sword {
+    background-image: url(../img/photo/miecz.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+
+
+
+/*Section Photo Style End*/
+/*Section News Style*/
+.news {
+    background-color: antiquewhite;
+}
+
+.news-background{
+    height: 600px;
+    width: 100%;
+    background-image:url(../img/news/vintage_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    border: 10px solid black;
+    position: relative;
+}
+
+.news-scroll {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.news-text {
+    position: absolute;
+    height: 100%;
+}
+.news-padding {
+    padding-left: 4%;
+}
+
+.news-topic {
+    font-size: 23px;
+    font-weight: 700;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.news-content {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+/*Section News Style End*/
+
+/*Section contact*/
+.section-border {
+    height: 2px;
+    background-color: antiquewhite;
+}
+
+.section-border-line {
+    height: 2px;
+    background-color: black;
+    margin: 0 15px 0 15px;
+}
+
+.contact {
+    background-color: antiquewhite;
+}
+
+.residence {
+    background-image: url(../img/residence/siedziba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 85%;
+    height: 500px;
+    border-radius: 2%;
+    
+}
+.contact-details .contact-name {
+    font-size: 27px;
+    text-align: center;
+}
+
+.contact-details p{
+    font-size: 20px;
+    text-align: left;
+    margin: 5px;
+}
+
+/*Footer Styles*/
+.content-footer {
+    background-color: black;
+    text-align: center;
+}
+
+.footer-row-padding {
+  padding: 15px 0 15px 0;
+}
+
+.content-footer p {
+    font-size: 21px;
+    color: antiquewhite;
+    margin: 0;
+    
+}
+
+.content-footer .copyright {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+/*Footer Styles End*/
+
+/*Responsive*/
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1600px) {
+
+    #main-nav a {
+        font-size: 21px;
+    }
+
+    .logo {
+        height: 405px;
+    }
+
+    .header-menu-container > .header {
+        font-size: 56px;
+    }
+
+    .first-letter {
+        font-size: 90px;
+    }
+
+    .slider-images img {
+        height: 150px;
+    }
+
+    .category-container {
+        height: 260px;
+    }
+
+}
+
+@media only screen and (max-width: 1366px) {
+
+    h2,
+    h3 {
+        font-size: 45px;
+    }
+
+    #main-nav a {
+        font-size: 17px;
+    }
+
+    .logo {
+        height: 338px;
+        width: 200px;
+        left: 1%;
+    }
+
+    .header-menu-container > .header {
+        font-size: 45px;
+    }
+
+    .first-letter {
+        font-size: 80px;
+    }
+
+    .slider-images img {
+        height: 120px;
+    }
+
+    .category-container {
+        height: 220px;
+    }
+
+    .photo-sword {
+        height: 380px;
+    }
+
+    .news-background {
+        height: 500px;
+    }
+
+    .news-topic {
+        font-size: 19px;
+    }
+
+    .news-content {
+        font-size: 15px;
+    }
+
+    .residence {
+        height: 350px;
+        background-position: 0% 65%;
+    }
+
+    .contact-details .contact-name {
+        font-size: 22px;
+
+    }
+
+    .contact-details p {
+        font-size: 16px;
+        margin: 3px;
+    }
+    
+    
+    .footer-row-padding {
+        padding: 12px 0 12px 0;
+    }
+    
+    .content-footer p {
+        font-size: 19px;
+        color: antiquewhite;
+        margin: 0;
+    }
+
+    .content-footer .copyright {
+        font-size: 12px;
+        padding-top: 3px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+    
+    h2,
+    h3 {
+        font-size: 40px;
+    }
+
+    #main-nav a {
+        font-size: 12px;
+    }
+    
+    .navbar-default {
+    top: 7%;
+        }
+
+    .logo {
+        height: 320px;
+    }
+
+    .header-menu-container > .header {
+        font-size: 40px;
+    }
+
+    .first-letter {
+        font-size: 65px;
+    }
+
+    .slider-images img {
+        height: 100px;
+    }
+    
+    .categories-row-padding{
+        padding: 0 60px 0 60px;
+    }
+    
+    .category-container {
+        height: 200px;
+    }
+
+    .photo-sword {
+        height: 300px;
+    }
+
+    .news-background {
+        height: 450px;
+    }
+
+    .news-topic {
+        font-size: 17px;
+    }
+
+    .news-content {
+        font-size: 14px;
+    }
+
+    .residence {
+        height: 350px;
+        background-position: 0% 65%;
+    }
+
+    .contact-details .contact-name {
+        font-size: 22px;
+    }
+
+    .contact-details p {
+        font-size: 16px;
+        margin: 3px;
+    }
+    
+    .footer-row-padding {
+        padding: 12px 0 12px 0;
+    }
+    
+    .content-footer p {
+        font-size: 16px;
+        color: antiquewhite;
+        margin: 0;
+    }
+
+    .content-footer .copyright {
+        font-size: 10px;
+        padding-top: 3px;
+    }
+}
+
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {}
+
+/* Small Devices, Tablets */
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none!important;
+    }
+}
+
+@media only screen and (max-width: 768px) {}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
+
+
+/*Responsive End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
