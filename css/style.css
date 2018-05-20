@@ -45,17 +45,6 @@ h2, h3 {
     height: 100%;
 }
 
-.logo {
-    width: 333px;
-    height: 515px;
-    position: absolute;
-    left: 2%;
-    bottom: 40%;
-}
-
-.logo > img {
-    height: 100%;
-}
 
 .header-menu-container > .header {
     position: absolute;
