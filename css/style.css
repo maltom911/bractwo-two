@@ -49,18 +49,18 @@ h3 {
 
 
 .header-menu-container > .header {
+    width: 50%;
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 25%;
+    left: 69%;
     transform: translateX(-50%);
     text-align: center;
-    font-size: 70px;
+    font-size: 75px;
     font-family: 'Marcellus SC', serif;
     font-family: 'Belleza', sans-serif;
     font-family: 'Cinzel', serif;
     font-family: 'Cinzel Decorative', cursive;
     color: antiquewhite;
-
 }
 
 .first-letter {
